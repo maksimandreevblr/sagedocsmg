@@ -1,0 +1,5 @@
+site_name: Sage Monolith документация
+nav:
+  - Home: index.md
+  - About: about.md
+theme: readthedocs
