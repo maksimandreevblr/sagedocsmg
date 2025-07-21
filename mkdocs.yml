@@ -1,5 +1,22 @@
 site_name: Sage Monolith документация
+# Настройка темы Material
+theme:
+ name: material
+ custom_dir: docs/img
+ language: ru
+ features:
+   - navigation.tabs
+   - navigation.sections
+   - navigation.indexes
+ palette:
+   scheme: default  # светлая тема
+   primary: indigo  # основной цвет
+   accent: blue     # акцентный цвет
+ icon:
+   repo: fontawesome/brands/github  # иконка репозитория (если есть)
+# Навигация с иконками (корректный синтаксис)
 nav:
-  - Home: index.md
-  - About: about.md
-theme: readthedocs
+ - Главная:
+     - index.md
+ - О проекте:
+     - about.md
