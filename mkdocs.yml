@@ -5,6 +5,7 @@ theme:
  custom_dir: docs/img
  language: ru
  features:
+   - toc.integrate
    - navigation.tabs
    - navigation.sections
    - navigation.indexes
@@ -20,3 +21,7 @@ nav:
      - index.md
  - О проекте:
      - about.md
+ - Черногория:
+     - montenegro.md 
+ - Италия:
+     - italy.md
