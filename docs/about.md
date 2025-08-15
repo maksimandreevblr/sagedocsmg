@@ -1,12 +1,13 @@
-# Разработчики  
-##**Maksim Andreev**  
+# **Разработчики**
+---
+##**Maksim Andreev**
 ![m.andreev](img/mandreev.png)  
 API, Werbebudget, Фискализация Монтенегро (MNE Fiskalisierung), Маршрутный лист (Streckenblatt)...  
-##**Inna Gurinovich**  
+---
+##**Inna Gurinovich**
 ![gurinovich](img/gurinovich.png)  
 Гуру Sage ;)  
-##**Jury Binder**  
+---
+##**Jury Binder**
 ![y.binder](img/ybinder.png)  
-Gedat  
-
-
+Gedat
