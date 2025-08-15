@@ -1,6 +1,7 @@
 # **Проекты Sage**
 ---
-## **Проект "Фискализация" (Fiskalisierung) *`разработчик - Maksim Andreev`***
+## **Проект "Фискализация" (Fiskalisierung)**  
+`разработчик - Maksim Andreev`  
 ### **Важные моменты в проведении фискализации документов в Sage**
 * Фискализация в Sage происходит автоматически после создания каждого документа типа Rechnung, Gutschrift, Stornorechnung.  
 * Признак успешной фискализации - наличие QR кода на документе.  
@@ -51,7 +52,9 @@
    ![Fiskalisierung_07](img/Fiskalisierung_07.png)  
    ![Fiskalisierung_07big ](img/Fiskalisierung_07big.png)
 ---
-## **Проект "Проверка цен" (Preischeck) *`разработчик - Maksim Andreev`***
+## **Проект "Проверка цен" (Preischeck)**  
+`разработчик - Maksim Andreev`  
+  
 Отчет для подразделений Montenegro, который отображает расхождения между ценами MNES в сравнении с другими подразделениями Montenegro (MNE, MNEI, MNED, MNEL).  
 Сравнение производится только по активным артикулам MNES.  
 Отчет формируется ежесуточно в ночное время.  
