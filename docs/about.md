@@ -1,13 +1,19 @@
-# **Разработчики**
+#**Команда разработки Sage**  
+##**Согласование новых проектов**  
+###**Andrej Chenfeld**  
+![a.chenfeld](img/achenfeld.png)  
+Senior PM  
 ---
-##**Maksim Andreev**
-![m.andreev](img/mandreev.png)  
-API, Werbebudget, Фискализация Монтенегро (MNE Fiskalisierung), Маршрутный лист (Streckenblatt)...  
+##**Разработчики**
 ---
-##**Inna Gurinovich**
+###**Inna Gurinovich**
 ![gurinovich](img/gurinovich.png)  
-Гуру Sage ;)  
+Программист  
 ---
-##**Jury Binder**
+###**Maksim Andreev**
+![m.andreev](img/mandreev.png)  
+Программист  
+---
+###**Jury Binder**
 ![y.binder](img/ybinder.png)  
-Gedat
+Программист

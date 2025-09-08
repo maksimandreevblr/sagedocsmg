@@ -7,7 +7,7 @@ theme:
  features:
    - toc.integrate
    - navigation.tabs
-   - navigation.sections
+#   - navigation.sections
    - navigation.indexes
  palette:
    scheme: default  # светлая тема
@@ -21,6 +21,8 @@ nav:
      - index.md
  - О проекте:
      - about.md
+ - West:
+     - west.md 
  - Черногория:
      - montenegro.md 
  - Италия:
