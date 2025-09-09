@@ -9,5 +9,5 @@
 ##**Проект "Packauftrag drucken Touren"**  
 `разработчик - Maksim Andreev`  
   
-В интерфейсе Sage «Touren» на вкдадке "Rechnungsdruck" добавлено поле «Ort» для выбора логистики. При нажатии кнопки "Packaufträge drucken" печать документов Packauftrag на сборку заказов будет осуществляется для артикулов, соответствующих выбранной логистике.  
+В интерфейсе Sage «Touren» на вкладке "Rechnungsdruck" добавлено поле «Ort» для выбора логистики. При нажатии кнопки "Packaufträge drucken" печать документов Packauftrag на сборку заказов будет осуществляется для артикулов, соответствующих выбранной логистике.  
    ![PADruckenTouren](img/PADruckenTouren.png)  
