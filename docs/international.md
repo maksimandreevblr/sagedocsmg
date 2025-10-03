@@ -1,7 +1,7 @@
 # **Проекты Sage**
 ---
 ##**Проект "Kaffeesteuer"**  
-`разработчик - Maksim Andreev`  
+👨🏻‍💻 [разработчик - Maksim Andreev](../about/#maksim-andreev)  
   
 Отчет "Kaffesteuer" находится в разделе Sage - Administration --> MG Controlling --> Steuerberichte --> Kaffeesteuer  
    ![Kaffeesteuer_01](img/Kaffeesteuer_01.png)  
