@@ -2,32 +2,29 @@ name: Deploy MkDocs
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ master ]
+
+permissions:
+  contents: write
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Set up Python
+    - uses: actions/checkout@v4
+    
+    - name: Setup Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.x'
         
-    - name: Install dependencies
+    - name: Install and Build
       run: |
-        pip install mkdocs
-        pip install mkdocs-material
+        pip install mkdocs mkdocs-material
+        mkdocs build
         
-    - name: Build site
-      run: mkdocs build
-      
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./site
+    - name: Deploy
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@users.noreply.github.com"
+        mkdocs gh-deploy --force
